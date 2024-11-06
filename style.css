@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 22px;
+  color: #fff;
+  background-color: #3399CC;
+  border: #2B81AC solid 25px;
+
+  h1 {
+    margin: 41px 0 35px;
+    font-size: 21px;
+    font-weight: normal;
+    word-spacing: 4px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+main {
+  max-width: min(1170px, 100vw - 200px);
+  /* min-height: 900px; */
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+
+  li {
+    border: #fff solid 2px;
+    display: inline-block;
+    font-size: 22px;
+    box-sizing: border-box;
+    height: 147px;
+  }
+
+  li:first-child {
+    border-bottom: #fff solid 1px;
+    background-color: #3399CC;
+    width: 50%;
+  }
+
+  li:nth-child(2) {
+    border-bottom: #fff solid 1px;
+    background-color: #33CCCC;
+    width: 25%;
+  }
+
+  li:nth-child(3) {
+    border-bottom: #fff solid 1px;
+    background-color: #996699;
+    width: 25%;
+  }
+
+  li:nth-child(4) {
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    background-color: #C24747;
+    width: 25%;
+  }
+
+  li:nth-child(5) {
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    background-color: #E2674A;
+    width: 25%;
+  }
+
+  li:nth-child(6) {
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    background-color: #FFCC66;
+    width: 25%;
+  }
+
+  li:nth-child(7) {
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    background-color: #99CC99;
+    width: 25%;
+  }
+
+  li:nth-child(8) {
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    background-color: #669999;
+    width: 25%;
+  }
+
+  li:nth-child(9) {
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    background-color: #CC6699;
+    width: 50%;
+  }
+
+  li:nth-child(10) {
+    border-bottom: #fff solid 1px;
+    border-top: #fff solid 1px;
+    background-color: #339966;
+    width: 25%;
+  }
+
+  li:nth-child(11) {
+    border-top: #fff solid 1px;
+    background-color: #666699;
+    width: 100%;
+  }
+}
+
+.weather {
+  max-width: 1166px;
+}
+
+div.weather + p {
+  margin: 35px 0 94px;
+  font-size: 16px;
+}
+
